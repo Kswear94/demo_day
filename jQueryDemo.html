@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>jQuery</title>
+   <!-- jQueryDemo.html - jQuery demo for demo day presentation
+        Kole L. Swearingen - Kole.Swearingen@my.southcentral.edu
+        Written: 10-22-15
+        Revised: 
+   -->
+   
+   <link href="jQueryDemo.css" rel="stylesheet" type="text/css">
+   
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   
+   <script src="jQueryDemo.js"></script>
+<style>
+      body{
+      background-color:    #F4F4F4;
+      }
+   </style>
+</head>
+<body>
+   <header>
+      <h1>jQuery</h1>
+   </header>
+   <div class="content">
+   <div id="ad">
+   <p>
+      YOUR AD HERE!!!!
+   </p>
+   <h5>Hide</h5>
+	</div>
+   
+   <br />
+	<fieldset>
+      <legend>What Color would you like the text?</legend>
+      <input type="radio" id="blue" name="color" value="1" checked><label for="blue">Blue</label><br />
+      <input type="radio" id="black" name="color" value="2" /><label for="black">Black</label><br />
+      <input type="radio" id="purple" name="color" value="3" /><label for="purple">Purple</label><br />
+   </fieldset>
+   
+    <br />
+    <fieldset>
+      <legend>Create-a-Link</legend>
+      <input type="text" id="link" name="link" value="" size="40"/><br /><br />
+	  <input type="submit" id="submitLink" name="submitLink" value="Create this link" />
+	</fieldset>
+
+	<br />
+	<fieldset>
+      <legend>Create-A-Node</legend>
+      <select name="createNode" id="createNode">
+      <option value="<p>">Paragraph</option>
+      <option value="<a/>">link</option>
+      <option value="<input type='text'/>">Text Box</option>
+      <option value="<input type='radio'/>">Radio Button!!!</option>
+      <option value=""></option>
+      </select>
+	  <br /><br />
+	  <legend>Enter text</legend>
+	  <input type="text" value="asdaaa" id="nodeText" size="50"/><br /><br />
+	  <input type="submit" id="submitNode" name="submitNode" value="Create Node!" />
+   </fieldset>
+	
+   </div>
+	
+	<br />
+	<footer>&nbsp;</footer>
+   
+</body>
+</html>

@@ -1,0 +1,116 @@
+/*************************************************
+        cssTemplate.css - External style sheet template
+        Kole L. Swearingen - Kole.Swearingen@my.southcentral.edu
+        Written: 04-05-15
+        Revised: 
+        
+*************************************************/
+
+body {
+background-color:    #F4F4F4;                /* Light gray */
+font-family:         monospace;              /* Font appearence */
+font-size:           18px;
+}
+
+footer {
+background:          #8D6FFA;                /* Light purple */
+border:              3px solid purple;      /* Solid purple border */
+clear:               both;                   /* Clear both left and right floating */
+color:               #3F0CF8;                /* Dark blue */
+font-size:           14px;
+margin:              10px 0px;               /* Top and bottom margin */
+padding:             10px;                   /* 4 sided padding */
+text-align:          center;
+}
+
+form{
+text-align:          center;                 
+}
+
+/* h1-h6*/
+h3 {
+cursor:              pointer;             /* changes the cursor into a finger pointing for better UX */
+margin-bottom:       0.25em;
+margin-left:         0.1em;
+padding:             0em;
+text-indent:         1em;
+text-decoration:     underline;
+width:               8em;
+}
+
+h5 {
+text-decoration: underline;
+}
+
+header {
+background:          #8D6FFA;                /* dark blue */
+border:              3px solid purple;      /* Solid purple border */
+color:               #3F0CF8;                /* Dark blue */
+font-family:         "Times New Roman";      /* Font appearence */
+margin:              10px 0px;               /* Top and bottom margin */
+padding:             0px 10px;               /* Left and right padding */
+text-align:			center;
+text-decoration:     underline;              /* h1 text is underlined */
+}
+
+p {
+border: 3px solid black;
+margin: 10px;
+padding: 5px;
+position:relative;
+text-align: center;
+width:50%;
+}
+
+fieldset {
+margin: 5px;
+}
+
+/*
+table {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+table, th, td {
+
+}
+*/
+input#link{
+margin:           auto;                         /* bottom, left margin */
+width:			 80%;
+}
+
+ol {
+list-style-type:     none;
+text-align:			left;
+}
+
+ul {
+margin-top:          0.2em;                      
+}
+
+ul li{
+padding-bottom:      0.15em;
+text-align:          left;
+}
+
+#id {
+border: 1px solid black;
+}
+
+.content {
+background-color:    #F4F4F4;                /* Light gray */
+border-bottom:    1px solid white;
+color:            #0B27F8;                                  /* dark blue */
+margin:           auto;                      			   /* bottom, left margin */
+padding:          5px;                    				   /* top, bottom, left padding */
+width:            50%;                                      /* 50% width of page */
+}
